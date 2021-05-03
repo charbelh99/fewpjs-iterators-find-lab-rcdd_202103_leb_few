@@ -6,6 +6,6 @@ function testFunc() {
 
 function superbowlWin(superbowls){
   let win = superbowls.find(superbowl => superbowl.result === "W")
- console.log(win);
+// console.log(win);
   return win ? win.year : undefined;
 }
